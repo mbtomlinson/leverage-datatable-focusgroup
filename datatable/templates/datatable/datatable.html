@@ -1,0 +1,114 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'datatable/css/bootstrap.min.css' %}" type = "text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.13/af-2.1.3/datatables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.13/af-2.1.3/datatables.min.css"/>
+    <script type="text/javascript" src="{% static 'datatable/js/datatable.js' %}"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Data Table</title>
+
+
+ 
+
+
+<table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>City</th>
+                <th>Age</th>
+                <th>Donation Date</th>
+                <th>Donation Amount</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>City</th>
+                <th>Age</th>
+                <th>Donation Date</th>
+                <th>Donation Amount</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Bala Cynwyd</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>$320</td>
+            </tr>
+            <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>King of Prussia</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>$170</td>
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>Philadelphia</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+                <td>$86</td>
+            </tr>
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>Horsham</td>
+                <td>22</td>
+                <td>2012/03/29</td>
+                <td>$433</td>
+            </tr>
+            <tr>
+                <td>Airi Satou</td>
+                <td>Accountant</td>
+                <td>Malvern</td>
+                <td>33</td>
+                <td>2008/11/28</td>
+                <td>$162</td>
+            </tr>
+            <tr>
+                <td>Brielle Williamson</td>
+                <td>Integration Specialist</td>
+                <td>Exton</td>
+                <td>61</td>
+                <td>2012/12/02</td>
+                <td>$372</td>
+            </tr>
+            <tr>
+                <td>Herrod Chandler</td>
+                <td>Sales Assistant</td>
+                <td>Cheltenham</td>
+                <td>59</td>
+                <td>2012/08/06</td>
+                <td>$137</td>
+            </tr>
+            <tr>
+                <td>Rhona Davidson</td>
+                <td>Integration Specialist</td>
+                <td>Philadelphia</td>
+                <td>55</td>
+                <td>2010/10/14</td>
+                <td>$327</td>
+            </tr>
+            
+        </tbody>
+    </table>1
+
